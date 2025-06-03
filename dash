@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>Acesso Restrito</title></head>
+<body>
+  <h2>Login</h2>
+  <input type="text" id="user" placeholder="Usuário">
+  <input type="password" id="pass" placeholder="Senha">
+  <button onclick="login()">Entrar</button>
+
+  <script>
+    function login() {
+      const user = document.getElementById('user').value;
+      const pass = document.getElementById('pass').value;
+      if (user === 'usuario123' && pass === 'senha123') {
+        window.location.href = 'https://app.powerbi.com/view?r=...'; // link público
+      } else {
+        alert('Usuário ou senha incorretos');
+      }
+    }
+  </script>
+</body>
+</html>
