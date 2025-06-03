@@ -12,7 +12,7 @@
       const user = document.getElementById('user').value;
       const pass = document.getElementById('pass').value;
       if (user === 'usuario123' && pass === 'senha123') {
-        window.location.href = 'https://app.powerbi.com/view?r=...'; // link público
+        window.location.href = 'eyJrIjoiNjU4NDgzOWMtZDE2YS00NWRhLWE0OTUtYTcyZGRhZDc0MTlkIiwidCI6ImM1ZTk2Njg0LTk1NTQtNDJkZi1hM2U5LWY3MWU1YWU4NTA5MyJ9'; // link público
       } else {
         alert('Usuário ou senha incorretos');
       }
